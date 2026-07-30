@@ -1,13 +1,21 @@
+//student detail
 let rollNo = 8
-function isOddOrEven(rollNo)
+isOddOrEven(rollNo)
+
+//employee detail 
+let empid = 235
+isOddOrEven(empid)
+
+function isOddOrEven(OE)
 {
-if (rollNo % 2 === 0)
+if (OE % 2 === 0)
 {
-    console.log("It is a Even number")
+    //console.log(cd)
+    console.log(OE)
+    console.log(OE + " is a Even number")
 }
 else
 {
-    console.log("It is a Odd number")
+     console.log(OE +" is a Odd number")
 }
 }
-isOddOrEven(rollNo)
